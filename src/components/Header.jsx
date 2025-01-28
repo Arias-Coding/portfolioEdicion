@@ -19,7 +19,7 @@ export default function Navbar() {
         </p>
         <a
           href="#"
-          class="bg-purple-700 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
+          class="bg-purple-600 hover:bg-purple-500 focus:outline-none focus:ring-purple-800 text-gray py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
         >
           Get Started
         </a>
