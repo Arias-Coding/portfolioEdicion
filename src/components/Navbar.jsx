@@ -7,10 +7,10 @@ export default function Navbar() {
         </span>
 
         <div class="basis-1/3 justify-center gap-6 w-full flex lg:w-auto lg:order-1">
-          <a href="#" class="text-lg hover:text-purple-600">Item</a>
-          <a href="#" class="text-lg hover:text-purple-600">Item</a>
-          <a href="#" class="text-lg hover:text-purple-600">Item</a>
-          <a href="#" class="text-lg hover:text-purple-600">Item</a>
+          <a href="#Sobre mi" class="text-lg hover:text-gray-50">Sobre mi</a>
+          <a href="#Especialidad" class="text-lg hover:text-gray-50">Especialidad</a>
+          <a href="#Softwares" class="text-lg hover:text-gray-50">Softwares</a>
+          <a href="#Trabajos" class="text-lg hover:text-gray-50">Trabajos</a>
         </div>
 
         <div class="basis-1/3 text-right lg:order-2">

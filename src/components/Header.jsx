@@ -11,11 +11,11 @@ export default function Navbar() {
       </div>
 
       <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
-        <h1 class="text-5xl font-bold leading-tight mb-4">
-          Welcome to Our Awesome Website
+        <h1 class="text-5xl font-bold leading-tight mb-1">
+          Orlando Arias
         </h1>
-        <p class="text-lg text-gray-300 mb-8">
-          Discover amazing features and services that await you.
+        <p class="text-xl text-gray-300 mb-8">
+          Editor de videos
         </p>
         <a
           href="#"

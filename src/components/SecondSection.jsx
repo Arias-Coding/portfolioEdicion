@@ -58,9 +58,9 @@ function Card() {
 
 export default function SecondSection() {
   return (
-    <div class="container px-6 py-10 max-w-screen-xl mx-auto ">
-      <h2 class="text-3xl font-semibold capitalize lg:text-4xl">
-        Mi <span class="underline decoration-blue-500">especialidad</span>
+    <div class="container px-6 pt-24 max-w-screen-xl mx-auto ">
+      <h2 class="text-5xl text-gray-50 font-extrabold capitalize lg:text-4xl">
+        <span class="underline decoration-blue-500">ESPECIALIDAD</span>
       </h2>
 
       <p class="mt-4 xl:mt-6">
