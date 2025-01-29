@@ -13,8 +13,8 @@ function App() {
       <FirstSection />
       <SecondSection />
       <ThirdSction />
-      <Footer />
-    </div>
+      <Footer /> 
+    </div> 
   );
 }
 

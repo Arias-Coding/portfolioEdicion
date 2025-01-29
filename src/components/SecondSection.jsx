@@ -1,4 +1,4 @@
-function Card() {
+function Card({ title, text }) {
   return (
     <div class="p-8 space-y-3 border-2 border-blue-400 border-blue-300 rounded-xl">
       <span class="inline-block text-blue-500 text-blue-400">
@@ -24,13 +24,12 @@ function Card() {
         </svg>
       </span>
 
-      <h1 class="text-2xl font-semibold capitalize">
-        elegant Dark Mode
+      <h1 class="text-2xl font-semibold">
+        {title}
       </h1>
 
       <p class="">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab
-        nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+        {text}
       </p>
 
       <a
@@ -59,9 +58,10 @@ function Card() {
 export default function SecondSection() {
   return (
     <div class="container px-6 pt-24 max-w-screen-xl mx-auto ">
-      <h2 class="text-5xl text-gray-50 font-extrabold capitalize lg:text-4xl">
-        <span class="underline decoration-blue-500">ESPECIALIDAD</span>
-      </h2>
+
+      <h2 class="mb-4 text-5xl text-gray-50 tracking-tight font-extrabold">
+      <span class="underline decoration-blue-500">ESPECIALIDAD</span>
+          </h2>
 
       <p class="mt-4 xl:mt-6">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam
@@ -69,11 +69,10 @@ export default function SecondSection() {
       </p>
 
       <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card title={"Gameplays"} text={""} />
+        <Card title={"Videos verticales"} text={""} />
+        <Card title={"Wojack animations"} text={""} />
+        <Card title={"Revisiones y ajustes"} text={""} />
       </div>
     </div>
   );
