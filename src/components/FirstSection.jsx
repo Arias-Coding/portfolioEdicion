@@ -6,7 +6,7 @@ export default function Navbar() {
           <h2 class="text-5xl text-gray-50 tracking-tight font-extrabold">
             SOBRE MI
           </h2>
-          <div class="w- h-1 bg-gray-400 mt-2 mb-4"></div>
+          <div class="w- h-1 bg-gradient-to-r from-blue-500 to-teal-400 mt-2 mb-4"></div>
 
           <p class="mb-4">
             Soy un Joven de 19 años, entusiasta de la creación de contenido y la

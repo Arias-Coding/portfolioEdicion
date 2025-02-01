@@ -7,7 +7,7 @@ export default function Navbar() {
           alt="Background Image"
           class="object-cover object-center w-full h-full "
         />
-        <div class="absolute inset-0 h-full bg-gradient-to-r from-purple-600 to-indigo-600 opacity-40"></div>
+        <div class="absolute inset-0 h-full bg-gradient-to-r from-slate-900 to-slate-700 opacity-60"></div>
       </div>
 
       <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
@@ -15,12 +15,6 @@ export default function Navbar() {
           ORLANDO ARIAS
         </h1>
         <p class="text-xl text-gray-300 mb-8">VIDEO EDITOR</p>
-        {/*         <a
-          href="#"
-          class="bg-purple-600 hover:bg-purple-500 focus:outline-none focus:ring-purple-800 text-gray py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-        >
-          Get Started
-        </a> */}
       </div>
     </div>
   );
