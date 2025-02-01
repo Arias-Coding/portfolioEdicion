@@ -1,12 +1,12 @@
 export default function Navbar() {
   return (
     <>
-      <div class="gap-16 items-center pt-24 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div class="sm:text-lg">
+      <div class="flex flex-row flex flex-row flex-wrap justify-center items-center gap-22 mt-14 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+        <div class="basis-1/3 sm:text-lg">
           <h2 class="text-5xl text-gray-50 tracking-tight font-extrabold">
             SOBRE MI
           </h2>
-          <div class="w-full h-1 bg-gray-400 mt-2 mb-4"></div>
+          <div class="w- h-1 bg-gray-400 mt-2 mb-4"></div>
 
           <p class="mb-4">
             We are strategists, designers and developers. Innovators and problem
@@ -20,14 +20,10 @@ export default function Navbar() {
             solvers. Small enough to be simple and quick.
           </p>
         </div>
-        <div class="grid grid-cols-2 gap-4 mt-8">
+        <div class="basis-2/3 flex justify-center gap-4 mt-8">
           <img
-            class="w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-          />
-          <img
-            class="mt-4 w-full lg:mt-10 rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+            class="mt-10 object-cover object-center w-120 h-80 rounded-lg"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DQ7CCSX88x6IvOEleynHawHaE8%26pid%3DApi&f=1&ipt=bc9ee6a34896c659dc3220a76c23c17f5481a460834ce6e8069d4e0e9032126d&ipo=images"
           />
         </div>
       </div>

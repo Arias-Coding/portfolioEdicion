@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-200 text-white overflow-hidden">
+    <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-170 text-white overflow-hidden">
       <div class="absolute inset-0">
         <img
           src="https://www.cined.com/content/uploads/2021/06/AdobeM1Mac_Featured-1300x750.jpg"
