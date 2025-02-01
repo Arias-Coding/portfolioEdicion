@@ -19,7 +19,10 @@ function Card({ icon, title, text }) {
 
 export default function SecondSection() {
   return (
-    <div id="Especialidad" class="container text-lg px-6 pt-24 max-w-screen-xl mx-auto ">
+    <div
+      id="Especialidad"
+      class="container text-lg px-6 pt-24 max-w-screen-xl mx-auto "
+    >
       <h2 class="mb-4 text-5xl text-gray-50 tracking-tight font-extrabold">
         ESPECIALIDAD
       </h2>
@@ -33,7 +36,10 @@ export default function SecondSection() {
       <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
         <div class="p-8 space-y-3 border-4 border-blue-400 border-blue-300 rounded-xl">
           <div className="flex items-center gap-2">
-            <img src="../../plubic/clapper-board.png" className="w-10 h-10" />
+            <img
+              src="https://images.emojiterra.com/microsoft/fluent-emoji/15.1/512px/1f3ac_color.png"
+              className="w-10 h-10"
+            />
             <h2 class="flex flex-row gap-2 items-center text-2xl font-semibold ">
               Videos para Youtube
             </h2>
@@ -41,9 +47,9 @@ export default function SecondSection() {
 
           <p class="">
             Dale vida a tus ideas con ediciones dinámicas, transiciones suaves y
-            efectos visuales que capturan la atención. Desde vlogs
-            cinematográficos hasta contenido educativo, convierto tu visión en
-            videos que atrapan y retienen a la audiencia.
+            efectos visuales que capturan la atención. </p><p>
+            Desde vlogs cinematográficos hasta contenido educativo, convierto tu
+            visión en videos que atrapan y retienen a la audiencia.
           </p>
 
           <div class="mt-2">
@@ -52,7 +58,10 @@ export default function SecondSection() {
         </div>
         <div class="p-8 space-y-3 border-4 border-blue-400 border-blue-300 rounded-xl">
           <div className="flex items-center gap-2">
-            <img src="../../plubic/joystick.png" className="w-10 h-10" />
+            <img
+              src="https://images.emojiterra.com/google/android-12l/512px/1f3ae.png"
+              className="w-10 h-10"
+            />
             <h2 class="flex flex-row gap-2 items-center text-2xl font-semibold ">
               Gameplays
             </h2>
@@ -61,7 +70,7 @@ export default function SecondSection() {
           <p class="">
             Haz que cada partida sea una experiencia inmersiva. Con cortes
             precisos, efectos envolventes y una edición que mantiene la emoción
-            al máximo, transformo tu gameplay en contenido adictivo que engancha
+            al máximo. </p><p> Transformo tu gameplay en contenido adictivo que engancha
             a los espectadores.
           </p>
 
@@ -71,7 +80,10 @@ export default function SecondSection() {
         </div>
         <div class="p-8 space-y-3 border-4 border-blue-400 border-blue-300 rounded-xl">
           <div className="flex items-center gap-2">
-            <img src="../../plubic/mobile-phone.png" className="w-10 h-10" />
+            <img
+              src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f4f1.png"
+              className="w-10 h-10"
+            />
             <h2 class="flex flex-row gap-2 items-center text-2xl font-semibold ">
               Videos Verticales
             </h2>
@@ -80,7 +92,7 @@ export default function SecondSection() {
           <p class="">
             ¡Haz que cada segundo cuente! Ediciones rápidas, subtítulos
             llamativos y cortes estratégicos diseñados para TikTok, Instagram y
-            Shorts. Convierte cada video en una máquina de engagement y alcanza
+            Shorts. </p><p> Convierte cada video en una máquina de engagement y alcanza
             más audiencia.
           </p>
 
@@ -90,7 +102,10 @@ export default function SecondSection() {
         </div>
         <div class="p-8 space-y-3 border-4 border-blue-400 border-blue-300 rounded-xl">
           <div className="flex items-center gap-2">
-            <img src="../../plubic/wojack.png" className="w-10 h-12" />
+            <img
+              src="https://pnghq.com/wp-content/uploads/2023/02/npc-wojak-npc-meme-png-1447.png"
+              className="w-10 h-12"
+            />
             <h2 class="flex flex-row gap-2 items-center text-2xl font-semibold ">
               Wojack animations
             </h2>
@@ -108,7 +123,10 @@ export default function SecondSection() {
         </div>
         <div class="p-8 space-y-3 border-4 border-blue-400 border-blue-300 rounded-xl">
           <div className="flex items-center gap-2">
-            <img src="../../plubic/tools.png" className="w-10 h-10" />
+            <img
+              src="https://vectorified.com/images/tools-icon-png-23.png"
+              className="w-10 h-10"
+            />
             <h2 class="flex flex-row gap-2 items-center text-2xl font-semibold ">
               Revisiones y ajustes
             </h2>
