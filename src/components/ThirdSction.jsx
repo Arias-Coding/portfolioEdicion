@@ -1,4 +1,27 @@
-function Card({ titulo, texto, video }) {
+export default function ThirdSction() {
+  return (
+    <div className="px-5 mx-auto max-w-screen-xl mt-50 mb-32 flex flex-col">
+      <div class="w-1/2 mb-18">
+        <h2 class="text-5xl text-gray-50 tracking-tight font-extrabold mb-3">
+          GALERIA DE TRABBAJOS
+        </h2>
+
+        <p>
+          Soy un Joven de 19 años, entusiasta de la creación de contenido y la
+          edición de videos. En cada proyecto busco entregar la mejor calidad
+          posible manteniendo una esencia original.
+        </p>
+      </div>
+      <div className="flex gap-5">
+        <div className="w-100 h-100 bg-gray-300"></div>
+      </div>
+    </div>
+  );
+}
+
+
+
+/* function Card({ titulo, texto, video }) {
   return (
     <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
       <div class="rounded-2xl border border-indigo-600 border-4 bg-indigo-950 px-4 py-6">
@@ -36,15 +59,14 @@ export default function ThirdSction() {
           SERVICIOS
         </h2>
         <p class="text-base xl:w-2/4 lg:w-3/4 mx-auto">
-          L'informatique est vaste et les langages naissent presque à tout
-          moment, je fais tout mon possible pour être à la hauteur afin de
-          répondre au besoin de mes clients et d'apaporter de l'aide aux nouveaux
-          développeurs.
+          Ofrezco soluciones profesionales en edición de video, adaptadas a
+          distintos formatos y necesidades. Mi enfoque está en la calidad, la
+          creatividad y la retención de audiencia.
         </p>
         <div class="flex mt-6 justify-center">
           <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
         </div>
-      </div> 
+      </div>
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 ">
         <Card
           titulo={"EDICIÓN PARA REDES SOCIALES"}
@@ -58,7 +80,7 @@ export default function ThirdSction() {
       </div>
     </div>
   );
-}
+} */
 
 {
   /* 

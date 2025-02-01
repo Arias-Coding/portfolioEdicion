@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div class="bg-gray-950 text-gray-200 relative">
+    <div class="bg-gray-950 text-gray-100 relative">
       <Navbar />
       <Header />
       <FirstSection />

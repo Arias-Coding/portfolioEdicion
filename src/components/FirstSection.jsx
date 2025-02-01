@@ -9,23 +9,20 @@ export default function Navbar() {
           <div class="w- h-1 bg-gray-400 mt-2 mb-4"></div>
 
           <p class="mb-4">
-            We are strategists, designers and developers. Innovators and problem
-            solvers. Small enough to be simple and quick, but big enough to
-            deliver the scope you want at the pace you need. Small enough to be
-            simple and quick, but big enough to deliver the scope you want at
-            the pace you need.
+            Soy un Joven de 19 años, entusiasta de la creación de contenido y la
+            edición de videos. En cada proyecto busco entregar la mejor calidad
+            posible manteniendo una esencia original.
           </p>
           <p>
-            We are strategists, designers and developers. Innovators and problem
-            solvers. Small enough to be simple and quick.
+            Siempre estoy en constante aprendizaje, explorando nuevas tendencias
+            y herramientas para mantener mi trabajo actualizado y ofrecer lo
+            mejor en cada proyecto.
           </p>
         </div>
-        <div class="basis-2/3 flex justify-center gap-4 mt-8">
-          <img
-            class="mt-10 object-cover object-center w-120 h-80 rounded-lg"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DQ7CCSX88x6IvOEleynHawHaE8%26pid%3DApi&f=1&ipt=bc9ee6a34896c659dc3220a76c23c17f5481a460834ce6e8069d4e0e9032126d&ipo=images"
-          />
-        </div>
+        <img
+          class="object-cover object-center w-120 h-80 rounded-lg"
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DQ7CCSX88x6IvOEleynHawHaE8%26pid%3DApi&f=1&ipt=bc9ee6a34896c659dc3220a76c23c17f5481a460834ce6e8069d4e0e9032126d&ipo=images"
+        />
       </div>
       <div className="flex justify-center items-center gap-6 mx-auto max-w-screen-xl text-xl mt-16 mb-24">
         <div className="flex justify-center items-center gap-1">
@@ -50,7 +47,7 @@ export default function Navbar() {
             alt="Logo"
             className="w-12 h-12 object-contain"
           />
-          <p>Davinci Resolv</p>
+          <p>Davinci Resolve</p>
         </div>
       </div>
     </>

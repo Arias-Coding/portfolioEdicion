@@ -10,7 +10,6 @@ export default function Navbar() {
           <a href="#Sobre mi" class="text-lg text-gray-300 hover:text-white">Sobre mi</a>
           <a href="#Especialidad" class="text-lg text-gray-300 hover:text-white">Especialidad</a>
           <a href="#Softwares" class="text-lg text-gray-300 hover:text-white">Softwares</a>
-          <a href="#Trabajos" class="text-lg text-gray-300 hover:text-white">Servicios</a>
           <a href="#Trabajos" class="text-lg text-gray-300 hover:text-white">Galeria</a>
         </div>
       </div>
