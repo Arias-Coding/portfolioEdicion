@@ -19,7 +19,7 @@ function Card({ icon, title, text }) {
 
 export default function SecondSection() {
   return (
-    <div class="container text-lg px-6 pt-24 max-w-screen-xl mx-auto ">
+    <div id="Especialidad" class="container text-lg px-6 pt-24 max-w-screen-xl mx-auto ">
       <h2 class="mb-4 text-5xl text-gray-50 tracking-tight font-extrabold">
         ESPECIALIDAD
       </h2>

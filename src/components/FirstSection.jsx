@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <>
-      <div class="flex flex-row flex flex-row flex-wrap justify-center items-center gap-22 mt-14 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      <div id="SobreMi" class="flex flex-row flex flex-row flex-wrap justify-center items-center gap-22 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-26 lg:px-6">
         <div class="basis-1/3 sm:text-lg">
           <h2 class="text-5xl text-gray-50 tracking-tight font-extrabold">
             SOBRE MI

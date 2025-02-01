@@ -7,10 +7,10 @@ export default function Navbar() {
         </span>
 
         <div class="basis-3/4 flex flex-row flex-wrap justify-end gap-6 w-full flex lg:w-auto lg:order-1">
-          <a href="#Sobre mi" class="text-lg text-gray-300 hover:text-white">Sobre mi</a>
+          <a href="#SobreMi" class="text-lg text-gray-300 hover:text-white">Sobre mi</a>
           <a href="#Especialidad" class="text-lg text-gray-300 hover:text-white">Especialidad</a>
-          <a href="#Softwares" class="text-lg text-gray-300 hover:text-white">Softwares</a>
-          <a href="#Trabajos" class="text-lg text-gray-300 hover:text-white">Galeria</a>
+          <a href="#Galeria" class="text-lg text-gray-300 hover:text-white">Galeria de Trabajos</a>
+          <a href="#Contactame" class="text-lg text-gray-300 hover:text-white">Contactame</a>
         </div>
       </div>
     </nav>
