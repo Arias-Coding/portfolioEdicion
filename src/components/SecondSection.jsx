@@ -24,17 +24,13 @@ function Card({ title, text }) {
         </svg>
       </span>
 
-      <h1 class="text-2xl font-semibold">
-        {title}
-      </h1>
+      <h1 class="text-2xl font-semibold">{title}</h1>
 
-      <p class="">
-        {text}
-      </p>
+      <p class="">{text}</p>
 
       <div class="mt-2">
-          <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
-        </div>
+        <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+      </div>
     </div>
   );
 }
@@ -42,10 +38,9 @@ function Card({ title, text }) {
 export default function SecondSection() {
   return (
     <div class="container px-6 pt-24 max-w-screen-xl mx-auto ">
-
       <h2 class="mb-4 text-5xl text-gray-50 tracking-tight font-extrabold">
-      <span class="underline decoration-blue-500">ESPECIALIDAD</span>
-          </h2>
+        ESPECIALIDAD
+      </h2>
 
       <p class="mt-4 xl:mt-6">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam

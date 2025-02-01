@@ -49,7 +49,7 @@ export default function ThirdSction() {
         <Card
           titulo={"EDICIÓN PARA REDES SOCIALES"}
           texto={
-            "Edición enfocada al posteo en redes sociales. Con subtitulado, animacion de clips y agregado de videos acorde a la temática. Edición enfocada a la retención de audiencia."
+            "Edición enfocada al posteo en redes sociales. Con subtitulado, animacion de clips y recoleccion de recursos acorde a la temática. Edición enfocada a la retención de audiencia."
           }
           video={"../../plubic/Secuencia02.mp4"}
         />
