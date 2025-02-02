@@ -5,8 +5,8 @@ export default function Navbar() {
         id="SobreMi"
         class="flex flex-col flex-wrap justify-center items-center gap-22 pt-26 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl xl:flex-row"
       >
-        <div class="w-90 sm:w-130 sm:text-lg">
-          <h2 class="text-5xl text-gray-50 tracking-tight font-extrabold">
+        <div class="w-2/3 sm:w-120 sm:text-lg">
+          <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold">
             SOBRE MI
           </h2>
           <div class="w- h-1 bg-gradient-to-r from-blue-500 to-teal-400 mt-2 mb-4"></div>
@@ -28,7 +28,7 @@ export default function Navbar() {
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-6 mx-auto max-w-screen-xl text-xl mt-16 mb-24 sm:flex-row">
+      <div className="flex flex-col justify-center items-center gap-6 mx-auto max-w-screen-xl text-xl mt-26 mb-24 sm:flex-row">
         <div className="flex justify-center items-center gap-1">
           <img
             src="https://i.pinimg.com/originals/01/5c/ae/015cae4e521337140707c25761f1f7b5.png"

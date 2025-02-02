@@ -2,18 +2,18 @@ export default function SecondSection() {
   return (
     <div
       id="Contactame"
-      class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24"
+      class="mx-auto max-w-screen-xl px-4 pb-8 mt-36 sm:px-6 lg:px-8 lg:pt-24"
     >
-      <div class="text-center">
-        <h2 class="mb-4 text-5xl text-gray-50 tracking-tight font-extrabold">
+      <div class="w-2/3 sm:w-120 mx-auto text-center sm:text-lg">
+        <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold mb-3">
           CONTACTAME
         </h2>
 
-        <p class="mx-auto mt-4 max-w-sm">
-          Si en estás interesado en proponer algun trabajo o charlar sobre algun
-          proyecto puedes ponerte en contacto conmigo.
+        <p>
+          Soy un joven entusiasta de la creación de contenido y la edición de
+          videos. En cada proyecto busco entregar la mejor calidad manteniendo
+          una esencia original.
         </p>
-
         <a
           href="#"
           class="mt-8 inline-block rounded-full border border-indigo-500 bg-indigo-800 border-2 px-12 py-3 text-sm font-medium text-white hover:bg-indigo-500 focus:outline-none focus:ring active:bg-indigo-500"

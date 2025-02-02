@@ -4,8 +4,8 @@ export default function SecondSection() {
       id="Especialidad"
       class="pt-26 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl"
     >
-      <div class="w-90 sm:w-130 sm:text-lg text-center mx-auto">
-        <h2 class="text-5xl text-gray-50 tracking-tight font-extrabold">
+      <div class="w-2/3 sm:w-120 sm:text-lg text-center mx-auto">
+        <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold">
           ESPECIALIDAD
         </h2>
 
@@ -18,7 +18,7 @@ export default function SecondSection() {
 
       <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
         <div class="rounded-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1 text-gray-300">
-          <div class="flex flex-col h-full bg-gray-800 p-6">
+          <div class="flex flex-col h-full bg-gray-800 p-6 pb-9">
             <div className="flex items-center gap-1 mb-4">
               <img
                 src="https://www.freeiconspng.com/uploads/youtube-logo-png-picture-13.png"
@@ -38,7 +38,7 @@ export default function SecondSection() {
           </div>
         </div>
         <div class="rounded-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1">
-          <div class="flex flex-col h-full bg-gray-800 p-6">
+          <div class="flex flex-col h-full bg-gray-800 p-6 pb-9">
             <div className="flex items-center gap-2 mb-4">
               <img
                 src="https://images.emojiterra.com/google/android-12l/512px/1f3ae.png"
@@ -59,7 +59,7 @@ export default function SecondSection() {
           </div>
         </div>
         <div class="rounded-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1">
-          <div class="flex flex-col h-full bg-gray-800 p-6">
+          <div class="flex flex-col h-full bg-gray-800 p-6 pb-9">
             <div className="flex items-center gap-2 mb-4">
               <img
                 src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f4f1.png"
@@ -79,7 +79,7 @@ export default function SecondSection() {
           </div>
         </div>
         <div class="rounded-md bg-gradient-to-r from-teal-400 to-gray-300 p-1">
-          <div class="flex flex-col h-full bg-gray-800 p-6">
+          <div class="flex flex-col h-full bg-gray-800 p-6 pb-9">
             <div className="flex items-center gap-2 mb-4">
               <img
                 src="https://pnghq.com/wp-content/uploads/2023/02/npc-wojak-npc-meme-png-1447.png"
@@ -96,7 +96,7 @@ export default function SecondSection() {
           </div>
         </div>
         <div class="rounded-md bg-gradient-to-r from-teal-400 to-gray-300 p-1">
-          <div class="flex flex-col h-full bg-gray-800 p-6">
+          <div class="flex flex-col h-full bg-gray-800 p-6 pb-9">
             <div className="flex items-center gap-2 mb-4">
               <img
                 src="https://vectorified.com/images/tools-icon-png-23.png"
