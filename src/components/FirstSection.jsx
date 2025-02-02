@@ -9,14 +9,14 @@ export default function Navbar() {
           <div class="w- h-1 bg-gradient-to-r from-blue-500 to-teal-400 mt-2 mb-4"></div>
 
           <p class="mb-4">
-            Soy un Joven de 19 años, entusiasta de la creación de contenido y la
+            Soy un joven entusiasta de la creación de contenido y la
             edición de videos. En cada proyecto busco entregar la mejor calidad
-            posible manteniendo una esencia original.
+            manteniendo una esencia original.
           </p>
           <p>
-            Siempre estoy en constante aprendizaje, explorando nuevas tendencias
+            Estoy en constante aprendizaje, explorando nuevas tendencias
             y herramientas para mantener mi trabajo actualizado y ofrecer lo
-            mejor en cada proyecto.
+            mejor en cada Trabajo.
           </p>
         </div>
         <img

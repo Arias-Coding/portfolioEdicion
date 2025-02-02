@@ -9,29 +9,29 @@ export default function SecondSection() {
       </h2>
 
       <p class="w-1/2 mt-4 xl:mt-6">
-        Potencia tu contenido con ediciones dinámicas, efectos envolventes y una
-        calidad visual que cautiva. Desde YouTube hasta TikTok, llevamos tus
-        ideas al siguiente nivel
+        Mis especialidades son los motivos por los que mi trabajo destaca, como
+        el dinamismo, los efectos envolventes y las visuales que atraen y
+        mantienen al espectador.
       </p>
 
       <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
         <div class="rounded-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1 text-gray-300">
           <div class="flex flex-col h-full bg-gray-800 p-6">
-            <div className="flex items-center gap-2 mb-4">
+            <div className="flex items-center gap-1 mb-4">
               <img
-                src="https://images.emojiterra.com/microsoft/fluent-emoji/15.1/512px/1f3ac_color.png"
-                className="w-10 h-10"
+                src="https://www.freeiconspng.com/uploads/youtube-logo-png-picture-13.png"
+                className="w-15 h-9"
               />
               <h2 class="text-2xl font-semibold ">Videos para Youtube</h2>
             </div>
 
             <p>
-              Dale vida a tus ideas con ediciones dinámicas, transiciones suaves
-              y efectos visuales que capturan la atención.{" "}
+              Ediciones dinámicas, transiciones suaves y efectos visuales que
+              capturan la atención.
             </p>
             <p>
-              Desde vlogs cinematográficos hasta contenido educativo, convierto
-              tu visión en videos que atrapan y retienen a la audiencia.
+              Desde vlogs cinematográficos hasta contenido educativo, videos que
+              atrapan y retienen a la audiencia.
             </p>
           </div>
         </div>
@@ -42,18 +42,16 @@ export default function SecondSection() {
                 src="https://images.emojiterra.com/google/android-12l/512px/1f3ae.png"
                 className="w-10 h-10"
               />
-              <h2 class="text-2xl font-semibold ">
-                Gameplays
-              </h2>
+              <h2 class="text-2xl font-semibold ">Gameplays</h2>
             </div>
 
             <p className="text-gray-300">
-              Haz que cada partida sea una experiencia inmersiva. Con cortes
+              Qué cada partida sea una experiencia inmersiva. Con cortes
               precisos, efectos envolventes y una edición que mantiene la
               emoción al máximo.
             </p>
             <p className="text-gray-300">
-              Transformo tu gameplay en contenido adictivo que engancha a los
+              Tu gameplay convertido en contenido adictivo que engancha a los
               espectadores.
             </p>
           </div>
@@ -65,18 +63,15 @@ export default function SecondSection() {
                 src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f4f1.png"
                 className="w-10 h-10"
               />
-              <h2 class="text-2xl font-semibold ">
-                Videos Verticales
-              </h2>
+              <h2 class="text-2xl font-semibold ">Videos Verticales</h2>
             </div>
 
             <p className="text-gray-300">
-              ¡Haz que cada segundo cuente! Ediciones rápidas, subtítulos
-              llamativos y cortes estratégicos diseñados para TikTok, Instagram
-              y Shorts.
+              ¡Qué cada segundo cuente! Ediciones rápidas, subtítulos
+              llamativos y cortes estratégicos diseñados para la retención.
             </p>
             <p className="text-gray-300">
-              Convierte cada video en una máquina de engagement y alcanza más
+              Cada video como una máquina de engagement qué alcance más
               audiencia.
             </p>
           </div>
@@ -88,14 +83,12 @@ export default function SecondSection() {
                 src="https://pnghq.com/wp-content/uploads/2023/02/npc-wojak-npc-meme-png-1447.png"
                 className="w-10 h-12"
               />
-              <h2 class="text-2xl font-semibold ">
-                Wojack animations
-              </h2>
+              <h2 class="text-2xl font-semibold ">Wojack animations</h2>
             </div>
 
             <p class="text-gray-300">
-              Memes animados con personalidad. Desde sátira inteligente hasta
-              humor absurdo, creo Wojack animations que destacan, divierten y se
+              Memes animados con personalidad. Desde la sátira inteligente hasta
+              el humor absurdo. Wojack animations que destacan, divierten y se
               viralizan. Dale vida a tus ideas con un estilo único y expresivo.
             </p>
           </div>
@@ -107,13 +100,11 @@ export default function SecondSection() {
                 src="https://vectorified.com/images/tools-icon-png-23.png"
                 className="w-10 h-10"
               />
-              <h2 class="text-2xl font-semibold ">
-                Revisiones y ajustes
-              </h2>
+              <h2 class="text-2xl font-semibold ">Revisiones y ajustes</h2>
             </div>
 
             <p class="text-gray-300">
-              ¿Algo no cuadra en tu video? Ajustemos color, ritmo, sonido y
+              ¿Algo no cuadra en tu video? Ajustemos el color, ritmo, sonido y
               cualquier detalle necesario para que el resultado final sea
               perfecto. Trabajemos juntos hasta que estés 100% satisfecho con tu
               contenido.
