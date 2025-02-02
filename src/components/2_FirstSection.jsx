@@ -1,22 +1,25 @@
 export default function Navbar() {
   return (
     <>
-      <div id="SobreMi" class="flex flex-row flex flex-row flex-wrap justify-center items-center gap-22 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-26 lg:px-6">
-        <div class="basis-1/3 sm:text-lg">
+      <div
+        id="SobreMi"
+        class="flex flex-col flex-wrap justify-center items-center gap-22 pt-26 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl xl:flex-row"
+      >
+        <div class="w-90 sm:w-130 sm:text-lg">
           <h2 class="text-5xl text-gray-50 tracking-tight font-extrabold">
             SOBRE MI
           </h2>
           <div class="w- h-1 bg-gradient-to-r from-blue-500 to-teal-400 mt-2 mb-4"></div>
 
           <p class="mb-4">
-            Soy un joven entusiasta de la creación de contenido y la
-            edición de videos. En cada proyecto busco entregar la mejor calidad
-            manteniendo una esencia original.
+            Soy un joven entusiasta de la creación de contenido y la edición de
+            videos. En cada proyecto busco entregar la mejor calidad manteniendo
+            una esencia original.
           </p>
           <p>
-            Estoy en constante aprendizaje, explorando nuevas tendencias
-            y herramientas para mantener mi trabajo actualizado y ofrecer lo
-            mejor en cada Trabajo.
+            Estoy en constante aprendizaje, explorando nuevas tendencias y
+            herramientas para mantener mi trabajo actualizado y ofrecer lo mejor
+            en cada Trabajo.
           </p>
         </div>
         <img
@@ -24,7 +27,8 @@ export default function Navbar() {
           src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DQ7CCSX88x6IvOEleynHawHaE8%26pid%3DApi&f=1&ipt=bc9ee6a34896c659dc3220a76c23c17f5481a460834ce6e8069d4e0e9032126d&ipo=images"
         />
       </div>
-      <div className="flex justify-center items-center gap-6 mx-auto max-w-screen-xl text-xl mt-16 mb-24">
+
+      <div className="flex flex-col justify-center items-center gap-6 mx-auto max-w-screen-xl text-xl mt-16 mb-24 sm:flex-row">
         <div className="flex justify-center items-center gap-1">
           <img
             src="https://i.pinimg.com/originals/01/5c/ae/015cae4e521337140707c25761f1f7b5.png"
@@ -53,11 +57,3 @@ export default function Navbar() {
     </>
   );
 }
-
-/* 
-        <p>After Effects</p>
-        <p>Davinci Resolve</p>
-
-agrega esta imagen "https://i.pinimg.com/originals/01/5c/ae/015cae4e521337140707c25761f1f7b5.png" como logo a la altura y del tamaño del texto
-
-*/

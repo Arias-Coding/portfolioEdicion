@@ -2,17 +2,19 @@ export default function SecondSection() {
   return (
     <div
       id="Especialidad"
-      class="container text-lg px-6 pt-24 max-w-screen-xl mx-auto "
+      class="pt-26 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl"
     >
-      <h2 class="mb-4 text-5xl text-gray-50 tracking-tight font-extrabold">
-        ESPECIALIDAD
-      </h2>
+      <div class="w-90 sm:w-130 sm:text-lg text-center mx-auto">
+        <h2 class="text-5xl text-gray-50 tracking-tight font-extrabold">
+          ESPECIALIDAD
+        </h2>
 
-      <p class="w-1/2 mt-4 xl:mt-6">
-        Mis especialidades son los motivos por los que mi trabajo destaca, como
-        el dinamismo, los efectos envolventes y las visuales que atraen y
-        mantienen al espectador.
-      </p>
+        <p class="mt-4">
+          Mis especialidades son los motivos por los que mi trabajo destaca,
+          como el dinamismo, los efectos envolventes y las visuales que atraen y
+          mantienen al espectador.
+        </p>
+      </div>
 
       <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
         <div class="rounded-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1 text-gray-300">
@@ -67,8 +69,8 @@ export default function SecondSection() {
             </div>
 
             <p className="text-gray-300">
-              ¡Qué cada segundo cuente! Ediciones rápidas, subtítulos
-              llamativos y cortes estratégicos diseñados para la retención.
+              ¡Qué cada segundo cuente! Ediciones rápidas, subtítulos llamativos
+              y cortes estratégicos diseñados para la retención.
             </p>
             <p className="text-gray-300">
               Cada video como una máquina de engagement qué alcance más
@@ -83,7 +85,7 @@ export default function SecondSection() {
                 src="https://pnghq.com/wp-content/uploads/2023/02/npc-wojak-npc-meme-png-1447.png"
                 className="w-10 h-12"
               />
-              <h2 class="text-2xl font-semibold ">Wojack animations</h2>
+              <h2 class="text-2xl font-semibold ">Wojack Animations</h2>
             </div>
 
             <p class="text-gray-300">
@@ -100,7 +102,7 @@ export default function SecondSection() {
                 src="https://vectorified.com/images/tools-icon-png-23.png"
                 className="w-10 h-10"
               />
-              <h2 class="text-2xl font-semibold ">Revisiones y ajustes</h2>
+              <h2 class="text-2xl font-semibold ">Revisiones y Ajustes</h2>
             </div>
 
             <p class="text-gray-300">
