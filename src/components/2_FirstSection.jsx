@@ -28,7 +28,7 @@ export default function Navbar() {
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-6 mx-auto max-w-screen-xl text-xl mt-26 mb-24 sm:flex-row">
+      <div className="mt-10 flex flex-col justify-center items-center gap-6 mx-auto max-w-screen-xl text-lg sm:text-xl sm:flex-row">
         <div className="flex justify-center items-center gap-1">
           <img
             src="https://i.pinimg.com/originals/01/5c/ae/015cae4e521337140707c25761f1f7b5.png"
