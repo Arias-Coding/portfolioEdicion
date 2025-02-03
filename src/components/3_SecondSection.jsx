@@ -2,7 +2,7 @@ export default function SecondSection() {
   return (
     <div
       id="Especialidad"
-      class="pt-24 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl"
+      class="pt-24 px-6 sm:px-13 max-w-screen-md mx-auto xl:max-w-screen-xl"
     >
       <div class="sm:w-120 sm:text-lg lg:text-center mx-auto mb-16 lg:mb-0">
         <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold">
@@ -27,7 +27,7 @@ export default function SecondSection() {
               <h2 class="text-2xl font-semibold ">Videos para Youtube</h2>
             </div>
 
-            <p>
+            <p className="mb-2">
               Ediciones dinámicas, transiciones suaves y efectos visuales que
               capturan la atención.
             </p>
@@ -47,7 +47,7 @@ export default function SecondSection() {
               <h2 class="text-2xl font-semibold ">Gameplays</h2>
             </div>
 
-            <p className="text-gray-300">
+            <p  className="mb-2 text-gray-300">
               Qué cada partida sea una experiencia inmersiva. Con cortes
               precisos, efectos envolventes y una edición que mantiene la
               emoción al máximo.
@@ -68,7 +68,7 @@ export default function SecondSection() {
               <h2 class="text-2xl font-semibold ">Videos Verticales</h2>
             </div>
 
-            <p className="text-gray-300">
+            <p  className="mb-2 text-gray-300">
               ¡Qué cada segundo cuente! Ediciones rápidas, subtítulos llamativos
               y cortes estratégicos diseñados para la retención.
             </p>

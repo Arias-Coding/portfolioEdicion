@@ -3,7 +3,7 @@ export default function Navbar() {
     <>
       <div
         id="SobreMi"
-        class="flex flex-col flex-wrap justify-center sm:items-center gap-22 pt-26 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl xl:flex-row"
+        class="flex flex-col flex-wrap justify-center sm:items-center gap-22 pt-26 px-6 sm:px-13 max-w-screen-md mx-auto xl:max-w-screen-xl xl:flex-row"
       >
         <div class="sm:w-120 sm:text-lg">
           <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold">

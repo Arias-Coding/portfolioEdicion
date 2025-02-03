@@ -13,7 +13,7 @@ function Video() {
 export default function ThirdSction() {
 
   return (
-    <div id="Galeria" className="pt-36 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl">
+    <div id="Galeria" className="pt-36 px-6 sm:px-13 max-w-screen-md mx-auto xl:max-w-screen-xl">
         <div class="sm:w-120 sm:text-lg mb-10">
           <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold">
             GALERIA DE TRABAJOS
