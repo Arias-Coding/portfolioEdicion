@@ -4,7 +4,7 @@ export default function SecondSection() {
       id="Contactame"
       class="mx-auto max-w-screen-xl px-4 pb-8 mt-36 sm:px-6 lg:px-8 lg:pt-24"
     >
-      <div class="w-2/3 sm:w-120 mx-auto text-center sm:text-lg">
+      <div class="px-4 sm:w-120 mx-auto text-center sm:text-lg">
         <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold mb-3">
           CONTACTAME
         </h2>

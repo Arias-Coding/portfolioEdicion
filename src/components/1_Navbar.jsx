@@ -6,7 +6,7 @@ export default function Navbar() {
           Portafolio Web
         </a>
 
-        <div class="flex flex-wrap justify-center gap-6 w-full md:justify-end md:basis-3/4">
+        <div class="flex flex-wrap justify-center mt-3 gap-3 md:mt-0 md:gap-6 w-full md:justify-end md:basis-3/4">
           <a href="#SobreMi" class="text-lg text-gray-400 hover:text-white">Sobre mi</a>
           <a href="#Especialidad" class="text-lg text-gray-400 hover:text-white">Especialidad</a>
           <a href="#Galeria" class="text-lg text-gray-400 hover:text-white">Galeria de Trabajos</a>

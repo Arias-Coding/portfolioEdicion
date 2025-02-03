@@ -3,9 +3,9 @@ export default function Navbar() {
     <>
       <div
         id="SobreMi"
-        class="flex flex-col flex-wrap justify-center items-center gap-22 pt-26 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl xl:flex-row"
+        class="flex flex-col flex-wrap justify-center sm:items-center gap-22 pt-26 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl xl:flex-row"
       >
-        <div class="w-2/3 sm:w-120 sm:text-lg">
+        <div class="sm:w-120 sm:text-lg">
           <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold">
             SOBRE MI
           </h2>
@@ -23,7 +23,7 @@ export default function Navbar() {
           </p>
         </div>
         <img
-          class="object-cover object-center w-120 h-80 rounded-lg"
+          class="object-cover object-center w-full h-content md:w-120 sm:h-80 rounded-lg"
           src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DQ7CCSX88x6IvOEleynHawHaE8%26pid%3DApi&f=1&ipt=bc9ee6a34896c659dc3220a76c23c17f5481a460834ce6e8069d4e0e9032126d&ipo=images"
         />
       </div>

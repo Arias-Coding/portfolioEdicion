@@ -2,9 +2,9 @@ export default function SecondSection() {
   return (
     <div
       id="Especialidad"
-      class="pt-26 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl"
+      class="pt-24 px-13 max-w-screen-md mx-auto xl:max-w-screen-xl"
     >
-      <div class="w-2/3 sm:w-120 sm:text-lg text-center mx-auto">
+      <div class="sm:w-120 sm:text-lg lg:text-center mx-auto mb-16 lg:mb-0">
         <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold">
           ESPECIALIDAD
         </h2>
