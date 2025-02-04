@@ -9,10 +9,9 @@ export default function SecondSection() {
           CONTACTAME
         </h2>
 
-        <p>
-          Soy un joven entusiasta de la creación de contenido y la edición de
-          videos. En cada proyecto busco entregar la mejor calidad manteniendo
-          una esencia original.
+        <p className="w-4/5 m-auto">
+          Si estas interesado en mis servicios o te gustaria proponer un
+          proyecto no dudes en contactarme
         </p>
         <a
           href="#"
@@ -21,8 +20,6 @@ export default function SecondSection() {
           Contactame
         </a>
       </div>
-
-
 
       <div class="mt-16 border-t border-gray-100 pt-8 flex gap-4 justify-center items-center flex-col">
         <div className="flex gap-2 justify-center items-center w-full text-xs text-gray-400">

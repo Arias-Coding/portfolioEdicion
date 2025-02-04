@@ -12,7 +12,7 @@ export default function Navbar() {
 
       <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
         <h1 class="mb-2 text-3xl lg:text-5xl text-gray-50 tracking-tight font-extrabold">
-          FRAME MOTION
+          ZASION MOTION
         </h1>
         <p class="text-lg lg:text-xl text-gray-300 mb-8">EDITOR DE VIDEOS</p>
       </div>
