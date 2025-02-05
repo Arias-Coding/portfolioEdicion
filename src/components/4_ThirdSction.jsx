@@ -18,14 +18,14 @@ export default function ThirdSction() {
       <div className="flex flex-row gap-5 flex-wrap">
         <div className="basis-1/3">
           <video
-            src="../../plubic\Animación Gráfico 1.mp4"
+            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738727691/v1uzlxeokx7lnk63tpax.mp4"
             className="w-full h-content mb-5"
             autoPlay
             muted
             loop
           />
           <video
-            src="../../plubic\Animación Gráfico 1 3D.mp4"
+            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738727692/aj9ox5sw23vx6oxlwxll.mp4"
             className="w-full h-content"
             autoPlay
             muted
@@ -34,7 +34,7 @@ export default function ThirdSction() {
         </div>
         <div className="basis-1/3">
           <video
-            src="../../plubic\Moon and Earth.mp4"
+            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738727691/wkacs1ciagbu2h6ms1je.mp4"
             autoPlay
             muted
             loop
