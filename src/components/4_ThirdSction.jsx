@@ -15,8 +15,8 @@ export default function ThirdSction() {
           una esencia original.
         </p>
       </div>
-      <div className="flex flex-row gap-5 flex-wrap">
-        <div className="basis-1/3">
+      <div className="grid gap-4 xl:grid-cols-2">
+        <div>
           <video
             src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797832/Animaci%C3%B3n_Gr%C3%A1fico_1_yc69xn.mp4"
             className="w-full h-content mb-5"
@@ -32,7 +32,7 @@ export default function ThirdSction() {
             loop
           />
         </div>
-        <div className="basis-1/3">
+        <div>
           <video
             src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797833/sky_ycvqta.mp4"
             className="w-full h-content mb-5"
