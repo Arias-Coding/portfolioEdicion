@@ -10,8 +10,8 @@ export default function SecondSection() {
         </h2>
 
         <p className="w-4/5 m-auto">
-          Si estas interesado en mis servicios o te gustaria proponer un
-          proyecto no dudes en contactarme
+          Si estas interesado en mis servicios o te gustaria charlar sobre algún
+          proyecto no dudes en contactarme.
         </p>
         <a
           href="#"
