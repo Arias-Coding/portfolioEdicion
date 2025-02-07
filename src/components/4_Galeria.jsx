@@ -57,7 +57,7 @@ export default function ThirdSction() {
       </h2>
       <div className="grid gap-4 xl:grid-cols-2">
         <video
-          src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738886489/Wojak_eop90k.mp4"
+          src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738967222/Wojak_vhny8g.mp4"
           className="w-full h-content"
           autoPlay
           muted
