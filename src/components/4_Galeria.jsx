@@ -37,6 +37,13 @@ export default function ThirdSction() {
           muted
           loop
         />
+        <video
+          src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738957376/Motion_Graphic_1_tze5vy.mp4"
+          className="w-full h-content"
+          autoPlay
+          muted
+          loop
+        />
       </div>
       <h2 class="text-2xl text-gray-50 uppercase font-extrabold mb-6">
         Motion Grahics Dedicados
