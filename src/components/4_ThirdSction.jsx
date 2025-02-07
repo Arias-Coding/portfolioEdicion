@@ -16,10 +16,16 @@ export default function ThirdSction() {
         </p>
       </div>
       <div className="grid gap-4 xl:grid-cols-2">
-        <div>
           <video
-            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797832/Animaci%C3%B3n_Gr%C3%A1fico_1_yc69xn.mp4"
-            className="w-full h-content mb-5"
+            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738886489/Wojak_eop90k.mp4"
+            className="w-full h-content"
+            autoPlay
+            muted
+            loop
+          />
+                    <video
+            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797833/sky_ycvqta.mp4"
+            className="w-full h-content"
             autoPlay
             muted
             loop
@@ -31,23 +37,23 @@ export default function ThirdSction() {
             muted
             loop
           />
-        </div>
-        <div>
+
+
+
           <video
-            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797833/sky_ycvqta.mp4"
-            className="w-full h-content mb-5"
+            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797832/Animaci%C3%B3n_Gr%C3%A1fico_1_yc69xn.mp4"
+            className="w-full h-content"
             autoPlay
             muted
             loop
           />
-          <video
+                    <video
             src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797833/Moon_and_Earth_om3a67.mp4"
             className="w-full h-content"
             autoPlay
             muted
             loop
           />
-        </div>
       </div>
     </div>
   );
