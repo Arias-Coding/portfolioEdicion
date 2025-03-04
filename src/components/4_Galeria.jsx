@@ -21,7 +21,7 @@ export default function ThirdSction() {
       <h2 class="text-2xl text-gray-50 uppercase font-extrabold mb-6">
         Motion Grapichs Basicos
       </h2>
-      <div className="grid gap-4 xl:grid-cols-2 mb-26">
+      <div className="grid gap-4 xl:grid-cols-2">
         <video
           src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797834/Animaci%C3%B3n_Gr%C3%A1fico_1_3D_b6wg2s.mp4"
           className="w-full h-content"
@@ -51,8 +51,8 @@ export default function ThirdSction() {
           muted
           loop
         />
-        <div className="grid gap-4 xl:grid-cols-2 mb-26">
-
+      </div>
+      <div className="grid gap-4 xl:grid-cols-3 mt-4 mb-26">
           <video
             src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1740865536/Output_1_mm3iaw.mp4"
             className="w-full h-content"
@@ -61,7 +61,6 @@ export default function ThirdSction() {
             loop
           />
         </div>
-      </div>
       <h2 class="text-2xl text-gray-50 uppercase font-extrabold mb-6">
         Motion Grahics Dedicados
       </h2>
@@ -80,6 +79,15 @@ export default function ThirdSction() {
           muted
           loop
         />
+        </div>
+        <div className="grid gap-4 xl:grid-cols-3 mt-4 mb-26">
+          <video
+            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1741112825/Final_Comp_bq7elc.mp4"
+            className="w-full h-content"
+            autoPlay
+            muted
+            loop
+          />
       </div>
     </div>
   );
