@@ -89,6 +89,13 @@ export default function ThirdSction() {
             loop
           />
       </div>
+      <video
+            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1743282275/Main_Comp_yj5ctk.mp4"
+            className="w-full h-content mt-20"
+            autoPlay
+            muted
+            loop
+          />
     </div>
   );
 }
