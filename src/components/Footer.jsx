@@ -5,13 +5,14 @@ export default function SecondSection() {
       class="mx-auto max-w-screen-xl px-6 sm:px-13 pb-8 mt-36 sm:px-6 lg:px-8 lg:pt-24"
     >
       <div class="px-4 sm:w-120 mx-auto text-center sm:text-lg">
-        <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold mb-3">
+        <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font- mb-3">
           CONTACTAME
         </h2>
 
-        <p className="w-4/5 m-auto">
-          Si estas interesado en mis servicios o te gustaria charlar sobre algún
-          proyecto no dudes en contactarme.
+        <p className="w-11/12 mx-auto">
+          Si te interesa lo que hago o tienes en mente un proyecto del que
+          quieras hablar, estaré encantado de conversar. ¡No dudes en
+          contactarme!
         </p>
         <a
           href="#"

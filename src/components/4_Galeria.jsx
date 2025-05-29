@@ -20,30 +20,25 @@ export default function ThirdSction() {
       className="pt-36 px-6 sm:px-13 max-w-screen-md mx-auto xl:max-w-screen-xl"
     >
       <div class="sm:w-120 sm:text-lg mb-10">
-        <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold">
+        <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-">
           GALERIA DE TRABAJOS
         </h2>
-
-        <p className="mt-3">
-          Esta es una seleccion de proyectos que demuestran mis cualidades y
-          dedicación a la hora de trabajar.
-        </p>
       </div>
       <div className="">
-        <h2 className="text-2xl text-gray-50 uppercase font-extrabold mb-6">
+        <h2 className="text-2xl text-gray-50 uppercase font-medium mb-6">
           Motion Grapichs Basicos
         </h2>
         <Carousel videos={MotionsBasicos} />
       </div>
-      <div className="">
-        <h2 className="text-2xl text-gray-50 uppercase font-extrabold mb-6">
+      <div className="mt-25">
+        <h2 className="text-2xl text-gray-50 uppercase font-medium mb-6">
           Motion Grahics Dedicados
         </h2>
         <Carousel videos={MotionDedicados} />
       </div>
       <video
         src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1743282275/Main_Comp_yj5ctk.mp4"
-        className="w-full h-content mt-20 rounded-2xl"
+        className="w-full h-content mt-40 rounded-2xl"
         autoPlay
         muted
         loop

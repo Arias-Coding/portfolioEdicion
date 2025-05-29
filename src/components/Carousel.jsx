@@ -42,13 +42,13 @@ export default function VideoCarousel({ videos }) {
         ›
       </button>
 
-      <div className="flex justify-center mt-2 space-x-2">
+      <div className="flex justify-center mt-5 space-x-2">
         {videos.map((_, idx) => (
           <button
             key={idx}
             onClick={() => setCurrentIndex(idx)}
-            className={`w-3 h-3 rounded-full ${
-              idx === currentIndex ? "bg-blue-500" : "bg-gray-300"
+            className={`w-3 h-3 rounded-full hover:cursor-pointer ${
+              idx === currentIndex ? "bg-sky-500" : "bg-gray-300"
             }`}
           />
         ))}

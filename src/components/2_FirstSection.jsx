@@ -6,20 +6,22 @@ export default function Navbar() {
         class="flex flex-col flex-wrap justify-center sm:items-center gap-22 pt-26 px-6 sm:px-13 max-w-screen-md mx-auto xl:max-w-screen-xl xl:flex-row"
       >
         <div class="sm:w-120 sm:text-lg">
-          <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-extrabold">
+          <h2 class="text-3xl sm:text-4xl text-gray-50 tracking-tight font-">
             SOBRE MI
           </h2>
           <div class="w- h-1 bg-gradient-to-r from-blue-500 to-teal-400 mt-2 mb-4"></div>
 
           <p class="mb-4">
-            Soy un joven entusiasta de la creación de contenido y la edición de
-            videos. En cada proyecto busco entregar la mejor calidad manteniendo
-            una esencia original.
+            Soy un joven apasionado por contar historias a través de la edición
+            de video. Cada proyecto es una oportunidad para combinar creatividad
+            y técnica, buscando siempre un resultado que conserve una identidad
+            única y auténtica.
           </p>
           <p>
-            Estoy en constante aprendizaje, explorando nuevas tendencias y
-            herramientas para mantener mi trabajo actualizado y ofrecer lo mejor
-            en cada Trabajo.
+            Vivo en aprendizaje constante, explorando nuevas herramientas,
+            tendencias y formas de expresión para que cada trabajo refleje lo
+            mejor de mí y esté en sintonía con lo que el mundo está buscando
+            ver.
           </p>
         </div>
         <img
@@ -28,7 +30,7 @@ export default function Navbar() {
         />
       </div>
 
-      <div className="mt-10 flex flex-col justify-center items-center gap-6 mx-auto max-w-screen-xl text-lg sm:text-xl sm:flex-row">
+      <div className="mt-20 flex flex-col justify-center items-center gap-6 mx-auto max-w-screen-xl text-lg sm:text-xl sm:flex-row">
         <div className="flex justify-center items-center gap-1">
           <img
             src="https://i.pinimg.com/originals/01/5c/ae/015cae4e521337140707c25761f1f7b5.png"
