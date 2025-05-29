@@ -4,7 +4,7 @@ export default function ThirdSction() {
   const MotionsBasicos = [
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738957376/Motion_Graphic_1_tze5vy.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738962967/Motion_Graphic_2_k4qafn.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748553868/Comp_1_gcbsiz.mp4",
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748559538/Comp_1_3_aoa9t0.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797832/Animaci%C3%B3n_Gr%C3%A1fico_1_yc69xn.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797834/Animaci%C3%B3n_Gr%C3%A1fico_1_3D_b6wg2s.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1740865536/Output_1_mm3iaw.mp4",
