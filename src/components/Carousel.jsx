@@ -31,13 +31,13 @@ export default function VideoCarousel({ videos }) {
 
       <button
         onClick={prevVideo}
-        className="absolute font-medium text-xl left-2 top-1/2 transform -translate-y-1/2 bg-blue-100 bg-opacity-75 rounded-full px-4 py-2 text-black"
+        className="absolute font-medium text-xl left-2 top-1/2 transform -translate-y-1/2 bg-blue-900 bg-opacity-75 rounded-full px-3 py-1.5 hover:cursor-pointer hover:bg-blue-700"
       >
         ‹
       </button>
       <button
         onClick={nextVideo}
-        className="absolute font-medium text-xl right-2 top-1/2 transform -translate-y-1/2 bg-blue-100 bg-opacity-75 rounded-full px-4 py-2 text-black"
+        className="absolute font-medium text-xl right-2 top-1/2 transform -translate-y-1/2 bg-blue-900 bg-opacity-75 rounded-full px-3 py-1.5 hover:cursor-pointer hover:bg-blue-700"
       >
         ›
       </button>
@@ -48,7 +48,9 @@ export default function VideoCarousel({ videos }) {
             key={idx}
             onClick={() => setCurrentIndex(idx)}
             className={`w-3 h-3 rounded-full hover:cursor-pointer ${
-              idx === currentIndex ? "bg-sky-500" : "bg-gray-300"
+              idx === currentIndex
+                ? "bg-sky-500"
+                : "bg-gray-300 hover:bg-sky-200"
             }`}
           />
         ))}

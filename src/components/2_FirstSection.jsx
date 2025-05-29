@@ -31,7 +31,7 @@ export default function Navbar() {
       </div>
 
       <div className="mt-20 flex flex-col justify-center items-center gap-6 mx-auto max-w-screen-xl text-lg sm:text-xl sm:flex-row">
-        <div className="flex justify-center items-center gap-1">
+        <div className="pr-1 w-60 flex justify-center items-center gap-1">
           <img
             src="https://i.pinimg.com/originals/01/5c/ae/015cae4e521337140707c25761f1f7b5.png"
             alt="Logo"
@@ -39,7 +39,7 @@ export default function Navbar() {
           />
           <p className="font-medium">Premiere Pro</p>
         </div>
-        <div className="flex justify-center items-center gap-1">
+        <div className="pr-3 w-60 flex justify-center items-center gap-1">
           <img
             src="https://logodownload.org/wp-content/uploads/2017/04/adobe-after-effects-logo-0.png"
             alt="Logo"
@@ -47,7 +47,7 @@ export default function Navbar() {
           />
           <p className="font-medium">After Effects</p>
         </div>
-        <div className="flex justify-center items-center gap-3">
+        <div className="pl-5 w-60 flex justify-center items-center gap-3">
           <img
             src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjackbanstudio.com%2Fwp-content%2Fuploads%2F2020%2F01%2FLogo-Davinci-Resolve.png&f=1&nofb=1&ipt=5433ad49060425c113ebd9690bc1d55d30b14a3e38eb9de96a893717edf35b6f&ipo=images"
             alt="Logo"
