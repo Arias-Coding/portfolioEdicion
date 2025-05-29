@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body {
+  font-family: 'Clash Grotesk', sans-serif;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;

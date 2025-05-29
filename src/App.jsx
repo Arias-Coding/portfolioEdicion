@@ -7,14 +7,14 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div class="bg-gray-950 text-gray-100 relative">
+    <div class="bg-slate-950 text-gray-100 relative">
       <Navbar />
       <Header />
       <FirstSection />
       <SecondSection />
       <ThirdSction />
-      <Footer /> 
-    </div> 
+      <Footer />
+    </div>
   );
 }
 

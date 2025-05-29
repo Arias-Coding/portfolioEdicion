@@ -15,7 +15,7 @@ export default function SecondSection() {
         </p>
         <a
           href="#"
-          class="mt-8 inline-block rounded-full border border-indigo-500 bg-indigo-800 border-2 px-12 py-3 text-sm font-medium text-white hover:bg-indigo-500 focus:outline-none focus:ring active:bg-indigo-500"
+          class="mt-8 inline-block rounded-full border-indigo-500 bg-indigo-800 border-2 px-12 py-3 text-sm font-medium text-white hover:bg-indigo-500 focus:outline-none focus:ring active:bg-indigo-500"
         >
           Contactame
         </a>

@@ -1,4 +1,19 @@
+import Carousel from "./Carousel";
+
 export default function ThirdSction() {
+  const MotionsBasicos = [
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738957376/Motion_Graphic_1_tze5vy.mp4",
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738962967/Motion_Graphic_2_k4qafn.mp4",
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797832/Animaci%C3%B3n_Gr%C3%A1fico_1_yc69xn.mp4",
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797834/Animaci%C3%B3n_Gr%C3%A1fico_1_3D_b6wg2s.mp4",
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1740865536/Output_1_mm3iaw.mp4",
+  ];
+  const MotionDedicados = [
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738967222/Wojak_vhny8g.mp4",
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797833/sky_ycvqta.mp4",
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1741112825/Final_Comp_bq7elc.mp4",
+  ];
+
   return (
     <div
       id="Galeria"
@@ -14,88 +29,25 @@ export default function ThirdSction() {
           dedicación a la hora de trabajar.
         </p>
       </div>
-
-      <h2 class="text-2xl text-gray-50 uppercase font-extrabold mb-6">
-        Videos
-      </h2>
-      <h2 class="text-2xl text-gray-50 uppercase font-extrabold mb-6">
-        Motion Grapichs Basicos
-      </h2>
-      <div className="grid gap-4 xl:grid-cols-2">
-        <video
-          src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797834/Animaci%C3%B3n_Gr%C3%A1fico_1_3D_b6wg2s.mp4"
-          className="w-full h-content"
-          autoPlay
-          muted
-          loop
-        />
-
-        <video
-          src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797832/Animaci%C3%B3n_Gr%C3%A1fico_1_yc69xn.mp4"
-          className="w-full h-content"
-          autoPlay
-          muted
-          loop
-        />
-        <video
-          src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738957376/Motion_Graphic_1_tze5vy.mp4"
-          className="w-full h-content"
-          autoPlay
-          muted
-          loop
-        />
-        <video
-          src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738962967/Motion_Graphic_2_k4qafn.mp4"
-          className="w-full h-content"
-          autoPlay
-          muted
-          loop
-        />
+      <div className="">
+        <h2 className="text-2xl text-gray-50 uppercase font-extrabold mb-6">
+          Motion Grapichs Basicos
+        </h2>
+        <Carousel videos={MotionsBasicos} />
       </div>
-      <div className="grid gap-4 xl:grid-cols-3 mt-4 mb-26">
-          <video
-            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1740865536/Output_1_mm3iaw.mp4"
-            className="w-full h-content"
-            autoPlay
-            muted
-            loop
-          />
-        </div>
-      <h2 class="text-2xl text-gray-50 uppercase font-extrabold mb-6">
-        Motion Grahics Dedicados
-      </h2>
-      <div className="grid gap-4 xl:grid-cols-2">
-        <video
-          src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738967222/Wojak_vhny8g.mp4"
-          className="w-full h-content"
-          autoPlay
-          muted
-          loop
-        />
-        <video
-          src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797833/sky_ycvqta.mp4"
-          className="w-full h-content"
-          autoPlay
-          muted
-          loop
-        />
-        </div>
-        <div className="grid gap-4 xl:grid-cols-3 mt-4 mb-26">
-          <video
-            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1741112825/Final_Comp_bq7elc.mp4"
-            className="w-full h-content"
-            autoPlay
-            muted
-            loop
-          />
+      <div className="">
+        <h2 className="text-2xl text-gray-50 uppercase font-extrabold mb-6">
+          Motion Grahics Dedicados
+        </h2>
+        <Carousel videos={MotionDedicados} />
       </div>
       <video
-            src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1743282275/Main_Comp_yj5ctk.mp4"
-            className="w-full h-content mt-20"
-            autoPlay
-            muted
-            loop
-          />
+        src="https://res.cloudinary.com/dnd9wg0pi/video/upload/v1743282275/Main_Comp_yj5ctk.mp4"
+        className="w-full h-content mt-20 rounded-2xl"
+        autoPlay
+        muted
+        loop
+      />
     </div>
   );
 }

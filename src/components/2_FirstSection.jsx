@@ -35,7 +35,7 @@ export default function Navbar() {
             alt="Logo"
             className="w-18 h-18 object-contain"
           />
-          <p>Premiere Pro</p>
+          <p className="font-medium">Premiere Pro</p>
         </div>
         <div className="flex justify-center items-center gap-1">
           <img
@@ -43,7 +43,7 @@ export default function Navbar() {
             alt="Logo"
             className="w-18 h-18 object-contain"
           />
-          <p>After Effects</p>
+          <p className="font-medium">After Effects</p>
         </div>
         <div className="flex justify-center items-center gap-3">
           <img
@@ -51,7 +51,7 @@ export default function Navbar() {
             alt="Logo"
             className="w-12 h-12 object-contain"
           />
-          <p>Davinci Resolve</p>
+          <p className="font-medium">Davinci Resolve</p>
         </div>
       </div>
     </>
