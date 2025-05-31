@@ -11,6 +11,7 @@ export default function ThirdSction() {
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1740865536/Output_1_mm3iaw.mp4",
   ];
   const MotionDedicados = [
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748666439/Iman_gadzhi_1_animation_2_nboet0.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738967222/Wojak_vhny8g.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797833/sky_ycvqta.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1741112825/Final_Comp_bq7elc.mp4",
