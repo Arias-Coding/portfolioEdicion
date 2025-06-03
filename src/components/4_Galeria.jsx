@@ -1,21 +1,22 @@
 import Carousel from "./Carousel";
+const MotionsOld = [
+  "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748631617/Simple_Habits_em0dmo.mp4",
+  "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748559538/Comp_1_3_aoa9t0.mp4",
+  "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738957376/Motion_Graphic_1_tze5vy.mp4",
+  "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738962967/Motion_Graphic_2_k4qafn.mp4",
+  "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797832/Animaci%C3%B3n_Gr%C3%A1fico_1_yc69xn.mp4",
+  "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797834/Animaci%C3%B3n_Gr%C3%A1fico_1_3D_b6wg2s.mp4",
+  "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1740865536/Output_1_mm3iaw.mp4",
+  "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738967222/Wojak_vhny8g.mp4",
+];
 
 export default function ThirdSction() {
-  const MotionsBasicos = [
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748631617/Simple_Habits_em0dmo.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748559538/Comp_1_3_aoa9t0.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738957376/Motion_Graphic_1_tze5vy.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738962967/Motion_Graphic_2_k4qafn.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797832/Animaci%C3%B3n_Gr%C3%A1fico_1_yc69xn.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797834/Animaci%C3%B3n_Gr%C3%A1fico_1_3D_b6wg2s.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1740865536/Output_1_mm3iaw.mp4",
+  const MotionsBasicosNews = [
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748830627/blade_runner_2049_poster_hdvyu3.mp4",
   ];
   const MotionDedicados = [
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748666439/Iman_gadzhi_1_animation_2_nboet0.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748830627/blade_runner_2049_poster_hdvyu3.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738967222/Wojak_vhny8g.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797833/sky_ycvqta.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1741112825/Final_Comp_bq7elc.mp4",
   ];
 
   return (
@@ -32,7 +33,7 @@ export default function ThirdSction() {
         <h2 className="text-2xl text-gray-50 uppercase font-medium mb-6">
           Motion Grapichs Basicos
         </h2>
-        <Carousel videos={MotionsBasicos} />
+        <Carousel videos={MotionsBasicosNews} />
       </div>
       <div className="mt-25">
         <h2 className="text-2xl text-gray-50 uppercase font-medium mb-6">
