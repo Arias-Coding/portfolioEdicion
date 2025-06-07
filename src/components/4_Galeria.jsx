@@ -12,6 +12,7 @@ const MotionsOld = [
 
 export default function ThirdSction() {
   const MotionsBasicosNews = [
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1749329040/Comp_1_bdencn.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748830627/blade_runner_2049_poster_hdvyu3.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797833/sky_ycvqta.mp4",
   ];
