@@ -12,13 +12,14 @@ const MotionsOld = [
 
 export default function ThirdSction() {
   const MotionsBasicosNews = [
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1749329040/Comp_1_bdencn.mp4",
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1749315575/mio_2_1_qgie1o.mp4",
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1749329789/Comp_1_bdencn.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748830627/blade_runner_2049_poster_hdvyu3.mp4",
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1738797833/sky_ycvqta.mp4",
   ];
   const MotionDedicados = [
     "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1748666439/Iman_gadzhi_1_animation_2_nboet0.mp4",
-    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1749315575/mio_2_1_qgie1o.mp4",
+    "https://res.cloudinary.com/dnd9wg0pi/video/upload/v1749360642/Comp_1_2_pnz9lv.mp4",
   ];
 
   return (
